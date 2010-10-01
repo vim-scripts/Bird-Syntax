@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3263
+
+This is a syntax file for the Bird Internet Routing Daemon configuration files.  It supports all keywords as of Bird version 1.2.4, along with filter, function, and protocol section folding.
+
+Bird information can be found here: http://bird.network.cz/
+
+There isn't any accompanying file type detection, so you'll need to ":setf bird" or use a modeline, a la:
+
+# vim: set ft=bird nosta noet ts=4 sw=4:
